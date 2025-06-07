@@ -1,0 +1,68 @@
+#navbar
+{
+   flex-direction: column;
+}
+
+#navbar ul
+{
+   padding-bottom: 2px;
+}
+
+#home
+{
+    height: 105px;
+}
+
+#home::before
+{
+    height: 400px;
+}
+
+#home p
+{
+      font-size: 12px;
+}
+
+#Services-container{
+    margin-top: 40px;
+}
+
+#services
+{
+    flex-direction: column;
+}
+
+#client-section
+{
+    position: relative;
+    height: max-content;
+}
+
+#clients
+{
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+#clients img
+{
+    width: 57px;
+}
+
+.form-group
+{
+    flex-wrap: wrap;
+}
+
+.form-group label
+{
+   margin-left: 15px;
+}
+
+#Contact-box input, #Contact-box textarea{
+    width: 300px;
+}
+
+#Contact-box{
+    padding: 30px;
+}
